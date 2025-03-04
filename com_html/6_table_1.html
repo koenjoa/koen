@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>table 01</title>
+</head>
+<body>
+  <table> <!--테이블 만들기 순서 행, 셀, 열 순서로 차례로 만듦듦-->
+    <caption>선물용과 가정용 상품 구성</caption> <!--표제목 표이동시 자연스레 같이 이동장점점-->
+    <tr> <!--tr 4개의 행 -->
+      <th>용도</th> <!--셀 글자 굵게해서 제목식으로 씀씀-->
+      <th>중량</th>  
+      <th>개수</th>
+      <th>가격</th>
+    </tr>
+    <tr>
+      <td>선물용</td>
+      <td>5KG</td>
+      <td>18~26과</td>
+      <td>52,000원</td>
+      
+    </tr>
+    <tr>
+      <td>선물용</td>
+      <th>5kg</th>
+      <td>18~26과</td>
+      <td>52,000원</td>
+    </tr>
+    <tr>
+      <td>가정용</td>
+      <td>3kg</td>
+      <td>11~16과</td>
+      <td>30,000원</td>
+    </tr>   
+    <tr>
+      <td>가정용</td>
+      <td>5kg</td>
+      <td>18~26과</td>
+      <td>47,000원</td>
+    </tr>
+ <!--html은 스타일리시를 사용하여 표의 선을 설치한다. -->
+  </table>
+  <!--테이블 셀 합치기-->
+  <table> <!--테이블 만들기 순서 행, 셀, 열 순서로 차례로 만듦듦-->
+    <caption>선물용과 가정용 상품 구성</caption> <!--표제목 표이동시 자연스레 같이 이동장점점-->
+    <tr> <!--tr 4개의 행 -->
+      <th>용도</th> <!--셀 글자 굵게해서 제목식으로 씀씀-->
+      <th>중량</th>  
+      <th>개수</th>
+      <th>가격</th>
+    </tr>
+    <tr>
+      <td rowspan="2">선물용</td>
+      <td>5KG</td>
+      <td>18~26과</td>
+      <td>52,000원</td>
+      
+    </tr>
+    <tr>
+      <td>선물용</td>
+      <th>5kg</th>
+      <td>18~26과</td>
+      <td>52,000원</td>
+    </tr>
+    <tr>
+      <td rowspan="2">가정용</td>
+      <td>3kg</td>
+      <td>11~16과</td>
+      <td>30,000원</td>
+    </tr>   
+    <tr>
+      
+      <td>5kg</td>
+      <td>18~26과</td>
+      <td>47,000원</td>
+    </tr>
+ <!--html은 스타일리시를 사용하여 표의 선을 설치한다. -->
+  </table>
+
+</body>
+</html>
